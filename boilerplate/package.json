@@ -1,0 +1,13 @@
+{
+  "name": "my-main-thread-env",
+  "version": "0.0.1",
+  "description": "Borderless main thread environment",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building a main thread JS environment'; cp -r src/ dist; mv dist/index.js dist/app.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.18.9"
+  }
+}
